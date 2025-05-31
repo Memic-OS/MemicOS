@@ -8,7 +8,7 @@ import { STEER_MAX_PROMPT_CHARS, SteerFeature } from '@/lib/utils/steer';
 import copy from 'copy-to-clipboard';
 import { EventSourceParserStream } from 'eventsource-parser/stream';
 import { ArrowUp, RotateCcw, Share, X } from 'lucide-react';
-import { NPSteerMethod } from 'memicos-inference-client';
+import { NPSteerMethod } from 'neuronpedia-inference-client';
 import { useRef } from 'react';
 import ReactTextareaAutosize from 'react-textarea-autosize';
 

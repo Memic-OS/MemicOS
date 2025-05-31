@@ -3,7 +3,7 @@ import { assertUserCanAccessModelAndSource } from '@/lib/db/userCanAccess';
 import { NEXT_PUBLIC_SEARCH_TOPK_MAX_CHAR_LENGTH } from '@/lib/env';
 import { getActivationsTopKByToken, SearchTopKResult } from '@/lib/utils/inference';
 import { RequestOptionalUser, withOptionalUser } from '@/lib/with-user';
-import { ActivationTopkByTokenPost200Response } from 'memicos-inference-client';
+import { ActivationTopkByTokenPost200Response } from 'neuronpedia-inference-client';
 import { NextResponse } from 'next/server';
 import { boolean, number, object, string, ValidationError } from 'yup';
 

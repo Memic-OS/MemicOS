@@ -11,25 +11,25 @@ import { useIsMount } from '@/lib/hooks/use-is-mount';
 import { SearchExplanationsType } from '@/lib/utils/general';
 import { getFirstSourceSetForModel } from '@/lib/utils/source';
 import {
-  ChatMessage,
-  convertOldSteerOutputToChatMessages,
-  FeaturePreset,
-  replaceSteerModelIdIfNeeded,
-  STEER_FREQUENCY_PENALTY,
-  STEER_METHOD,
-  STEER_N_COMPLETION_TOKENS,
-  STEER_N_COMPLETION_TOKENS_THINKING,
-  STEER_SEED,
-  STEER_SPECIAL_TOKENS,
-  STEER_STRENGTH_MULTIPLIER,
-  STEER_TEMPERATURE,
-  SteerFeature,
-  SteerPreset,
+    ChatMessage,
+    convertOldSteerOutputToChatMessages,
+    FeaturePreset,
+    replaceSteerModelIdIfNeeded,
+    STEER_FREQUENCY_PENALTY,
+    STEER_METHOD,
+    STEER_N_COMPLETION_TOKENS,
+    STEER_N_COMPLETION_TOKENS_THINKING,
+    STEER_SEED,
+    STEER_SPECIAL_TOKENS,
+    STEER_STRENGTH_MULTIPLIER,
+    STEER_TEMPERATURE,
+    SteerFeature,
+    SteerPreset,
 } from '@/lib/utils/steer';
 import { NeuronWithPartialRelations } from '@/prisma/generated/zod';
 import { Model, Visibility } from '@prisma/client';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import { NPSteerMethod } from 'memicos-inference-client';
+import { NPSteerMethod } from 'neuronpedia-inference-client';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import SteerAdvancedSettings from './advanced-settings';

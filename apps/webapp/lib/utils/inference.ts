@@ -13,24 +13,24 @@ import { AuthenticatedUser } from '@/lib/with-user';
 import { NeuronPartial, NeuronPartialWithRelations } from '@/prisma/generated/zod';
 import { SteerOutputType } from '@prisma/client';
 import {
-  ActivationSinglePost200Response,
-  ActivationTopkByTokenPost200Response,
-  BASE_PATH,
-  Configuration,
-  DefaultApi,
-  NPSteerMethod,
-  NPSteerType,
-  NPSteerVector,
-  SteerCompletionChatPost200Response,
-  SteerCompletionPost200Response,
-} from 'memicos-inference-client';
+    ActivationSinglePost200Response,
+    ActivationTopkByTokenPost200Response,
+    BASE_PATH,
+    Configuration,
+    DefaultApi,
+    NPSteerMethod,
+    NPSteerType,
+    NPSteerVector,
+    SteerCompletionChatPost200Response,
+    SteerCompletionPost200Response,
+} from 'neuronpedia-inference-client';
 import {
-  getOneRandomServerHostForModel,
-  getOneRandomServerHostForSource,
-  getOneRandomServerHostForSourceSet,
-  getTwoRandomServerHostsForModel,
-  getTwoRandomServerHostsForSourceSet,
-  LOCALHOST_INFERENCE_HOST,
+    getOneRandomServerHostForModel,
+    getOneRandomServerHostForSource,
+    getOneRandomServerHostForSourceSet,
+    getTwoRandomServerHostsForModel,
+    getTwoRandomServerHostsForSourceSet,
+    LOCALHOST_INFERENCE_HOST,
 } from '../db/inference-host-source';
 import { INFERENCE_SERVER_SECRET, USE_LOCALHOST_INFERENCE } from '../env';
 import { NeuronIdentifier } from './neuron-identifier';

@@ -5,7 +5,7 @@ import { getSourceSet } from '@/lib/db/source';
 import { NeuronWithPartialRelations, SourceWithPartialRelations } from '@/prisma/generated/zod';
 import * as Tooltip from '@radix-ui/react-tooltip';
 import { HelpCircle } from 'lucide-react';
-import { UtilSaeTopkByDecoderCossimPost200Response } from 'memicos-inference-client';
+import { UtilSaeTopkByDecoderCossimPost200Response } from 'neuronpedia-inference-client';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { LoadingSquare } from '../svg/loading-square';

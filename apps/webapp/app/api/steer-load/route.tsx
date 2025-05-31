@@ -2,7 +2,7 @@ import { prisma } from '@/lib/db';
 import { NEXT_PUBLIC_URL } from '@/lib/env';
 import { RequestOptionalUser, withOptionalUser } from '@/lib/with-user';
 import { SteerOutputType } from '@prisma/client';
-import { NPSteerMethod } from 'memicos-inference-client';
+import { NPSteerMethod } from 'neuronpedia-inference-client';
 import { NextResponse } from 'next/server';
 import { object, string, ValidationError } from 'yup';
 import { SteerResultChat } from '../steer-chat/route';

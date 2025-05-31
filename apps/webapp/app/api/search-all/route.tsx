@@ -15,7 +15,7 @@ import {
 } from '@/lib/env';
 import { runInferenceActivationAll } from '@/lib/utils/inference';
 import { RequestOptionalUser, withOptionalUser } from '@/lib/with-user';
-import { ActivationAllPost200Response } from 'memicos-inference-client';
+import { ActivationAllPost200Response } from 'neuronpedia-inference-client';
 import { NextResponse } from 'next/server';
 
 // Hobby plans don't support > 60 seconds

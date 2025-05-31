@@ -1,6 +1,6 @@
 import { NeuronPartial } from '@/prisma/generated/zod';
 import { Model } from '@prisma/client';
-import { NPSteerMethod } from 'memicos-inference-client';
+import { NPSteerMethod } from 'neuronpedia-inference-client';
 import { STEER_FORCE_ALLOW_INSTRUCT_MODELS } from '../env';
 
 export const STEER_N_COMPLETION_TOKENS = 64;

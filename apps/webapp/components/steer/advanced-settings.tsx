@@ -1,20 +1,20 @@
 import { Button } from '@/components/shadcn/button';
 import {
-  STEER_FREQUENCY_PENALTY,
-  STEER_N_COMPLETION_TOKENS,
-  STEER_N_COMPLETION_TOKENS_MAX,
-  STEER_N_COMPLETION_TOKENS_MAX_THINKING,
-  STEER_SEED,
-  STEER_SPECIAL_TOKENS,
-  STEER_STRENGTH_MULTIPLIER,
-  STEER_STRENGTH_MULTIPLIER_MAX,
-  STEER_TEMPERATURE,
-  STEER_TEMPERATURE_MAX,
+    STEER_FREQUENCY_PENALTY,
+    STEER_N_COMPLETION_TOKENS,
+    STEER_N_COMPLETION_TOKENS_MAX,
+    STEER_N_COMPLETION_TOKENS_MAX_THINKING,
+    STEER_SEED,
+    STEER_SPECIAL_TOKENS,
+    STEER_STRENGTH_MULTIPLIER,
+    STEER_STRENGTH_MULTIPLIER_MAX,
+    STEER_TEMPERATURE,
+    STEER_TEMPERATURE_MAX,
 } from '@/lib/utils/steer';
 import * as Popover from '@radix-ui/react-popover';
 import * as Select from '@radix-ui/react-select';
 import { ChevronDown, HelpCircle } from 'lucide-react';
-import { NPSteerMethod } from 'memicos-inference-client';
+import { NPSteerMethod } from 'neuronpedia-inference-client';
 
 export default function SteerAdvancedSettings({
   thinking,

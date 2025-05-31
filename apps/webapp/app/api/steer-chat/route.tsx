@@ -9,23 +9,23 @@ import { neuronExistsAndUserHasAccess } from '@/lib/db/neuron';
 import { DEMO_MODE, NEXT_PUBLIC_URL } from '@/lib/env';
 import { steerCompletionChat } from '@/lib/utils/inference';
 import {
-  ChatMessage,
-  STEER_MAX_PROMPT_CHARS,
-  STEER_METHOD,
-  STEER_N_COMPLETION_TOKENS_MAX,
-  STEER_N_COMPLETION_TOKENS_MAX_THINKING,
-  STEER_STRENGTH_MAX,
-  STEER_STRENGTH_MIN,
-  STEER_STRENGTH_MULTIPLIER_MAX,
-  STEER_TEMPERATURE_MAX,
-  SteerFeature,
+    ChatMessage,
+    STEER_MAX_PROMPT_CHARS,
+    STEER_METHOD,
+    STEER_N_COMPLETION_TOKENS_MAX,
+    STEER_N_COMPLETION_TOKENS_MAX_THINKING,
+    STEER_STRENGTH_MAX,
+    STEER_STRENGTH_MIN,
+    STEER_STRENGTH_MULTIPLIER_MAX,
+    STEER_TEMPERATURE_MAX,
+    SteerFeature,
 } from '@/lib/utils/steer';
 import { AuthenticatedUser, RequestOptionalUser, withOptionalUser } from '@/lib/with-user';
 import { SteerOutputToNeuronWithPartialRelations } from '@/prisma/generated/zod';
 import { SteerOutputType } from '@prisma/client';
 import { EventSourceMessage } from 'eventsource-parser';
 import { EventSourceParserStream } from 'eventsource-parser/stream';
-import { NPSteerChatMessage, NPSteerMethod, SteerCompletionChatPost200Response } from 'memicos-inference-client';
+import { NPSteerChatMessage, NPSteerMethod, SteerCompletionChatPost200Response } from 'neuronpedia-inference-client';
 import { NextResponse } from 'next/server';
 import { array, bool, InferType, number, object, string, ValidationError } from 'yup';
 

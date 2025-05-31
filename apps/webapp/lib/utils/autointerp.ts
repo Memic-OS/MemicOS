@@ -1,5 +1,5 @@
 import { UserSecretType } from '@prisma/client';
-import { BASE_PATH, Configuration, DefaultApi } from 'memicos-autointerp-client';
+import { BASE_PATH, Configuration, DefaultApi } from 'neuronpedia-autointerp-client';
 import {
   AUTOINTERP_SERVER,
   AUTOINTERP_SERVER_SECRET,

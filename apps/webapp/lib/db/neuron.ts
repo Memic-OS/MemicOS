@@ -1,6 +1,6 @@
 import { prisma } from '@/lib/db';
 import { Neuron } from '@prisma/client';
-import { ActivationAllPost200Response, ActivationTopkByTokenPost200Response } from 'memicos-inference-client';
+import { ActivationAllPost200Response, ActivationTopkByTokenPost200Response } from 'neuronpedia-inference-client';
 import { NeuronWithPartialRelations } from 'prisma/generated/zod';
 import { PUBLIC_ACTIVATIONS_USER_IDS } from '../env';
 import { EXPLANATIONTYPE_HUMAN } from '../utils/autointerp';
@@ -8,11 +8,11 @@ import { NeuronIdentifier } from '../utils/neuron-identifier';
 import { getSourceSetNameFromSource, isNeuronLayerSource, NEURONS_SOURCESET } from '../utils/source';
 import { AuthenticatedUser } from '../with-user';
 import {
-  assertUserCanAccessModel,
-  assertUserCanAccessModelAndSource,
-  assertUserCanAccessModelAndSourceSet,
-  assertUserCanWriteModelAndSource,
-  userCanAccessModelAndSourceSet,
+    assertUserCanAccessModel,
+    assertUserCanAccessModelAndSource,
+    assertUserCanAccessModelAndSourceSet,
+    assertUserCanWriteModelAndSource,
+    userCanAccessModelAndSourceSet,
 } from './userCanAccess';
 
 const NEURONS_TO_LOAD_PER_REQUEST = 25;
