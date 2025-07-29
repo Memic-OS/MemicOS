@@ -1,6 +1,6 @@
 # MemicOS
 
-## Contract Address:7eqmrxHucJJPEWb6XQtH4e8hqGugormhidSK5dg2kBLV
+## Contract Address: 7eqmrxHucJJPEWb6XQtH4e8hqGugormhidSK5dg2kBLV
 
 MemicOS is a self-hosted AI platform built to give developers and researchers full control over the internal mechanisms of large language models. It is designed for interpreting, steering, and extending model behavior through interactive tools, custom infrastructure, and fully local workflows. With support for modular dashboards, activation-based feature exploration, and personalized inference pipelines, MemicOS functions as an open-ended interface for deep model experimentation and control.
 
